@@ -7,14 +7,27 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
   <link rel="icon" href="favicon.png">
+
+
+  <meta charset="UTF-8">
+  <title></title>
+    <link href='https://fonts.googleapis.com/css?family=Ceviche+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+
+
+
 </head>
 
 <body>
+
+
   <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="cloud">
     <div class="title-text">
       <h1>I'm Regal.</h1>
-      <h2>I love working with data</h2>
     </div>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
     <img class="mountain" src="images/mountain.png" alt="mountain-img">
@@ -24,11 +37,22 @@
     <div class="profile">
 
       <h2>Hello!</h2>
-      <p class="intro">I love to learn, and I challenge myself everyday by learning new skills or by improving what I know. I have fun adding value when utilizing skills I've developed</p>
+      <p class="intro">I love to learn, and I challenge myself everyday by learning new skills or by improving what I know. I have fun adding value when utilizing skills I've developed.</p>
     </div>
     <hr>
     <div class="skills">
       <h2>My Skills.</h2>
+
+
+      <div class="skill-row">
+
+        <h3>Project Management</h3>
+        <p> I enjoy managing projects, working in teams, and providing value to stakeholders. I manage projects by being a servant leader and by ensuring that my team has what they need to be successful. I develop those around me and learn from them at the same time. I passed my Project Management Professional Certification by Project Management Institute in December 2023.
+        <p> <a href="https://www.credly.com/earner/earned/badge/fbf1949b-b03a-465e-ae4e-326a4c775fbe">My PMP Certification</a> <span></p>
+
+      </div>
+
+
       <div class="skill-row">
         <img class="data-img" src="https://media3.giphy.com/media/c7PcKQlOqZ8Ws/giphy.gif?cid=ecf05e47jgupee9nsweeg9ck6o8sf75zljvtnhuxxnh4st6b&rid=giphy.gif&ct=g" alt="data-img">
 
@@ -43,31 +67,38 @@
 
         <h3>Programming</h3>
         <p> Programming is a passion of mine, especially when I utilize it to automate things that makes my life easier. I can code in Python, Kotlin, R, HTML, CSS, and Javascript. </p>
-        <p> <a href="https://github.com/RegalCodes/RegalCodes">My Github</a> <span> <a href="Regals Mystery Box Website/index.html">My Mystery Box Website</a></span> <a href="Regals_Drum_Set/index.html">My Interactive Drum Set</a></span> </p> 
+        <p> <a href="https://github.com/RegalCodes/RegalCodes">My Github</a> <span> <a href="Regals Mystery Box Website/index.html">My Mystery Box Website</a></span> <a href="Regals_Drum_Set/index.html">My Interactive Drum Set</a></span> </p>
 
       </div>
 
 
       <div class="skills">
         <h2>My Hobbies</h2>
-        
 
         <div class="skill-row">
-          <img class="data-img" src="https://media3.giphy.com/media/JkQW0NsfGJYWI/giphy.gif?cid=ecf05e47lgcfy50ltkihtgkyuwe87r3boovbrxv5dxeerdb9&rid=giphy.gif&ct=g" alt="mariokart">
 
-          <h3>Gaming</h3>
-          <p> When I want to relax and have fun, I sometimes play video games on Playstation or PC. Lately I've been playing UFC 5 and Overwatch 2. 
+          <h3>Stock Trading</h3>
+          <p> I always stay updated on current events and stock news. I like to analyze stock fundamentals and technical charts.
         </div>
 
-        <br />
-       
+        <div class="skill-row">
+
+          <h3>Gaming</h3>
+          <p> When I want to relax and have fun, I sometimes play video games on Playstation or PC. Lately I've been playing UFC 5 and Overwatch 2.
+        </div>
+
+
+
       <div class="skill-row">
-        <img class="basketball-img" src="https://media1.giphy.com/media/q5hVhkKwKHDuo/giphy.gif?cid=ecf05e479fkcfhep6149cvh36kc4vtki5fxwtkm0gr6h3hki&rid=giphy.gif&ct=g" alt="basketball-img">
 
         <h3>Basketball</h3>
         <p> I love playing basketball, I think I'm a better defender than I am on offense but offense is a lot more fun. I always try to take high percentage shots and I do that by going to the rim. </p>
 
       </div>
+
+
+
+
     </div>
     <hr>
     <div class="contact-me">
@@ -78,6 +109,11 @@
   </div>
 
 
+
+
+
+
+
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/regalc/">LinkedIn</a>
     <a class="footer-link" href="https://public.tableau.com/app/profile/regal.chhit#!/">Tableau Portfolio</a>
@@ -85,6 +121,40 @@
     <a class="footer-link" href="https://github.com/RegalCodes/RegalCodes">My GitHub</a>
     <p class="copyright">© 2022 Regal Chhit</p>
   </div>
+
+
+
+
+
+
+
+      <div class="main">
+          <div class="ryu">
+              <div class="ryu-still"></div>
+              <div class="ryu-ready"></div>
+              <div class="ryu-throwing"></div>
+              <div class="ryu-cool"></div>
+              <div class="easteregg"></div>
+          </div>
+          <div class="hadouken"></div>
+      </div>
+      <div class="instructions">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/145077/Street_Fighter_Logo.png">
+          <p>Click on Ryu to throw Hadouken</p>
+          <p>Hold down X to initiate smooth stance</p>
+          <p>Hold down K to FIGHT!</p>
+      </div>
+      <audio id="hadouken-sound" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/145077/hadouken.mp3">
+      <audio id="fight-sound" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/145077/fight.mp3">
+
+
+
+
+  <script src="index.js" charset="utf-8"></script>
+
 </body>
+
+
+
 
 </html>
